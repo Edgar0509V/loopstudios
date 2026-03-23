@@ -1,0 +1,38 @@
+---
+import facebook from "../images/icon-facebook.svg";
+import twitter from "../images/icon-twitter.svg";
+import pinterest from "../images/icon-pinterest.svg";
+import instagram from "../images/icon-instagram.svg";
+import loopstudios from "../images/logo.svg";
+---
+
+<footer class="bg-black text-white py-12 px-6 md:px-20">
+  <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center space-y-8 md:space-y-0">
+    
+    <div class="flex flex-col items-center md:items-start space-y-6">
+      <img src={loopstudios.src} alt="loopstudios" class="w-36" />
+      
+      <nav class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 text-sm font-bold text-center">
+        <a href="#" class="hover:border-b-2 border-white pb-1">About</a>
+        <a href="#" class="hover:border-b-2 border-white pb-1">Careers</a>
+        <a href="#" class="hover:border-b-2 border-white pb-1">Events</a>
+        <a href="#" class="hover:border-b-2 border-white pb-1">Products</a>
+        <a href="#" class="hover:border-b-2 border-white pb-1">Support</a>
+      </nav>
+    </div>
+
+    <div class="flex flex-col items-center md:items-end space-y-4">
+      <div class="flex space-x-4">
+        <img src={facebook.src} alt="Facebook" class="w-6 h-6 cursor-pointer hover:border-b-2 border-white pb-1" />
+        <img src={twitter.src} alt="Twitter" class="w-6 h-6 cursor-pointer hover:border-b-2 border-white pb-1" />
+        <img src={pinterest.src} alt="Pinterest" class="w-6 h-6 cursor-pointer hover:border-b-2 border-white pb-1" />
+        <img src={instagram.src} alt="Instagram" class="w-6 h-6 cursor-pointer hover:border-b-2 border-white pb-1" />
+      </div>
+      
+      <p class="text-gray-500 text-sm">
+        © 2021 Loopstudios. All rights reserved.
+      </p>
+    </div>
+
+  </div>
+</footer>

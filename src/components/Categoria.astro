@@ -1,0 +1,74 @@
+---
+import curiosity from "../images/desktop/image-curiosity.jpg";
+import deep from "../images/desktop/image-deep-earth.jpg";
+import fisheye from "../images/desktop/image-fisheye.jpg";
+import fromabove from "../images/desktop/image-from-above.jpg";
+import grid from "../images/desktop/image-grid.jpg";
+import night from "../images/desktop/image-night-arcade.jpg";
+import pocket from "../images/desktop/image-pocket-borealis.jpg";
+import soccer from "../images/desktop/image-soccer-team.jpg"
+---
+
+<section class="max-w-5xl mx-auto px-6 py-10">
+  
+  <div class="flex justify-between items-center mb-8">
+    <h2 class="text-2xl md:text-3xl uppercase tracking-widest">Our Creations</h2>
+    <button class="border border-black px-8 py-2 uppercase text-xs hover:bg-black hover:text-white transition">
+      See All
+    </button>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+    
+    <div class="relative group cursor-pointer h-32 md:h-80 overflow-hidden">
+      <img src={deep.src} class="w-full h-full object-cover group-hover:opacity-30 transition" />
+      <div class="absolute inset-0 bg-linear-to-t from-black/60 to-transparent group-hover:bg-white/80 transition"></div>
+      <h3 class="absolute bottom-4 left-4 text-white text-xl uppercase group-hover:text-black">Deep Earth</h3>
+    </div>
+
+    <div class="relative group cursor-pointer h-32 md:h-80 overflow-hidden">
+      <img src={night.src} class="w-full h-full object-cover group-hover:opacity-30 transition" />
+      <div class="absolute inset-0 bg-linear-to-t from-black/60 to-transparent group-hover:bg-white/80 transition"></div>
+      <h3 class="absolute bottom-4 left-4 text-white text-xl uppercase group-hover:text-black">Night Arcade</h3>
+    </div>
+
+    <div class="relative group cursor-pointer h-32 md:h-80 overflow-hidden">
+      <img src={soccer.src} class="w-full h-full object-cover group-hover:opacity-30 transition" />
+      <div class="absolute inset-0 bg-linear-to-t from-black/60 to-transparent group-hover:bg-white/80 transition"></div>
+      <h3 class="absolute bottom-4 left-4 text-white text-xl uppercase group-hover:text-black">Soocer Team VR</h3>
+    </div>
+
+    <div class="relative group cursor-pointer h-32 md:h-80 overflow-hidden">
+      <img src={grid.src} class="w-full h-full object-cover group-hover:opacity-30 transition" />
+      <div class="absolute inset-0 bg-linear-to-t from-black/60 to-transparent group-hover:bg-white/80 transition"></div>
+      <h3 class="absolute bottom-4 left-4 text-white text-xl uppercase group-hover:text-black">The Grid</h3>
+    </div>
+
+    <div class="relative group cursor-pointer h-32 md:h-80 overflow-hidden">
+      <img src={fromabove.src} class="w-full h-full object-cover group-hover:opacity-30 transition" />
+      <div class="absolute inset-0 bg-linear-to-t from-black/60 to-transparent group-hover:bg-white/80 transition"></div>
+      <h3 class="absolute bottom-4 left-4 text-white text-xl uppercase group-hover:text-black">From Up Above VR</h3>
+    </div>
+
+    <div class="relative group cursor-pointer h-32 md:h-80 overflow-hidden">
+      <img src={pocket.src} class="w-full h-full object-cover group-hover:opacity-30 transition" />
+      <div class="absolute inset-0 bg-linear-to-t from-black/60 to-transparent group-hover:bg-white/80 transition"></div>
+      <h3 class="absolute bottom-4 left-4 text-white text-xl uppercase group-hover:text-black">Pocket Boreals</h3>
+    </div>
+
+    <div class="relative group cursor-pointer h-32 md:h-80 overflow-hidden">
+      <img src={curiosity.src} class="w-full h-full object-cover group-hover:opacity-30 transition" />
+      <div class="absolute inset-0 bg-linear-to-t from-black/60 to-transparent group-hover:bg-white/80 transition"></div>
+      <h3 class="absolute bottom-4 left-4 text-white text-xl uppercase group-hover:text-black">The Curiosity</h3>
+    </div>
+
+    <div class="relative group cursor-pointer h-32 md:h-80 overflow-hidden">
+      <img src={fisheye.src} class="w-full h-full object-cover group-hover:opacity-30 transition" />
+      <div class="absolute inset-0 bg-linear-to-t from-black/60 to-transparent group-hover:bg-white/80 transition"></div>
+      <h3 class="absolute bottom-4 left-4 text-white text-xl uppercase group-hover:text-black">Make it Fisheye</h3>
+    </div>
+
+
+
+    </div>
+</section>
