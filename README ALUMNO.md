@@ -21,7 +21,7 @@ El trabajo consiste en crear una pagina que contenga un header, una galeria de i
 
 ## 🔗 Enlace al proyecto
 Repositorio en GitHub: [https://github.com/Edgar0509V/loopstudios.git]  
-Deploy: []
+Deploy: [https://loopstudios-rosy-one.vercel.app/]
 ---
 
 ## 📝 Reflexión
