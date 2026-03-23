@@ -15,11 +15,12 @@ El trabajo consiste en crear una pagina que contenga un header, una galeria de i
 - CSS  
 - Astro
 - Tailwindcss
+- JavaScript
 
 ---
 
 ## 🔗 Enlace al proyecto
-Repositorio en GitHub: [https://github.com/Edgar0509V/Ejercicio-1-QR.git]  
+Repositorio en GitHub: [https://github.com/Edgar0509V/loopstudios.git]  
 Deploy: []
 ---
 
